@@ -1,0 +1,79 @@
+/* Div for Text Mode. */
+.top-left{
+    position: fixed;
+    left: 5px;
+    top:5px;
+}
+.top-right{
+    position: fixed;
+    right:5px;
+    top:5px;
+}
+.bottom-left{
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+}
+.bottom-right{
+    position: fixed;
+    right:5px;
+    bottom: 5px;
+}
+
+.footer-tm>div{
+    display: inline;
+    font-size: 0px;
+}
+/* Box For footers */
+.box{
+    margin: 0px;
+    /* margin-right: -5px; */
+    padding: 0px;
+    height: 5vw;
+    width: 5vw;
+    display: inline-block;
+    border: 1px solid white;
+}
+.box-red{
+    background-color: red;
+    border-color: red;
+}
+.box-green{
+    background-color: green;
+    border-color: green;
+}
+.box-yellow{
+    background-color: yellow;
+    border-color: yellow;
+}
+.box-blue{
+    background-color: blue;
+    border-color: blue;
+}
+.box-b-yellow{
+    border-color: yellow;
+}
+.box-b-blue{
+    border-color: blue;
+}
+
+img.logo{
+    height: 10vw;
+    width:  10vw;
+}
+
+#text-mode{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#data{
+    font-size: 10vh;
+}
+
+
+
