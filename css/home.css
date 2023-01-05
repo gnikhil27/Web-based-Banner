@@ -1,4 +1,5 @@
 /* Div for Text Mode. */
+
 .top-left{
     position: fixed;
     left: 5px;
@@ -62,19 +63,54 @@ img.logo{
     width:  10vw;
 }
 
-#text_mode{
+section{
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 3;
 }
 
 
-#data{
+.data{
     font-size: 10vh;
 }
 
+.hidden{
+    display: none !important;
+    height: 0px !important;
+    z-index: 0;
+}
+
 body{
-    /* overflow: hidden; */
+    overflow: hidden;
+}
+
+
+img.donation_user{
+    height: 10vw;
+    width: 10vw;
+    align-self: center;
+}
+
+
+/* Donation */
+.media{
+    display: flex;
+}
+.media>img{
+    height: 10vw;
+    width: 10vw;
+    align-items: flex-start;
+    margin-right: 15px;
+}
+.media-body{
+    align-self: stretch;
+}
+*{
+    font-family: 'Montserrat';
+}
+.center{
+    text-align: center;
 }

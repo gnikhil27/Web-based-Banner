@@ -7,37 +7,14 @@
     <meta name="author" content="N. S. Gupta">
     <meta name="description" content="LD Alumni Meet Banner page.">
     <link rel="stylesheet" href="./css/home.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <title>LD College Banner</title>
 </head>
 <body>
-    <section id="text_mode">
-        <div class="header-tm">
-            <div class="top-left">
-                <img class="logo" src="./img/ldce.png" alt="L.D. College of Engineering" />
-                <img class="logo" src="./img/ce_ldce.png" alt="L.D.C.E Computer Department" />
-            </div>
-            <div class="top-right">
-                <img class="logo" src="./img/ld75.jpg" alt="L.D.C.E 75 Years">
-                <img class="logo" src="./img/laa.png" alt="L.D. Alumni Assosiation">
-            </div>
-            <div class="footer-tm">
-                <div class="bottom-left">
-                    <div class="box box-red"></div>
-                    <div class="box"></div>
-                    <div class="box box-yellow"></div>
-                    <div class="box box-b-yellow"></div>
-                </div>
-                <div class="bottom-right">
-                    <div class="box box-blue"></div>
-                    <div class="box box-b-blue"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box box-green"></div>
-                </div>
-            </div>
-        </div>
-        <div id="data">Waiting for network...</div>
-    </section>
+    <section id="donation_mode" class="hidden"></section>
+    <section id="text_mode" class="hidden"></section>
+    <section id="video_mode"></section>
     <script src="./js/socket.js"></script>
+    <script src="./js/html_loader.js"></script>
 </body>
 </html>

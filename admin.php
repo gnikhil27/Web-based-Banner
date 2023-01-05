@@ -25,30 +25,15 @@
 </head>
 <body>
     <?php if(isset($_SESSION["auth"]) && $_SESSION["auth"] == true){?>
-        <section>
-            <form method="post"><input type="submit" name="logout" id="logout" value="logout" /></form>
-            <form method="get">
-                <select name="mode" id="mode">
-                    <option value="text_mode">text_mode</option>
-                    <option value="donation_mode">donation_mode</option>
-                </select>
-                <input type="file" name="image" id="image" />
-                <input type="text" name="jtext" id="jtext" />
-
-                <input type="submit" value="Modify" />
-            </form>
-            <br>
-            <b>Current Text: </b><span id="data"></span>
-            <script src="./js/socket.js"></script>
+        <section id="admin_page">
+            
         </section>
     <?php } else {?>
         <section id="login_page">
-            <form method="post">
-                <input type="text" name="username" id="username" />
-                <input type="password" name="password" id="password" />
-                <input type="submit" value="Log In"/>
-            </form>
+            
         </section>
     <?php }?>
+    <script src="./js/html_loader.js"></script>
+    <script src="./js/socket.js"></script>
 </body>
 </html>
