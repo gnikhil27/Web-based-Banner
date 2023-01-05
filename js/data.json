@@ -1,1 +1,4 @@
-{"text":"Hello Welcome to the GAC-2023"}
+{
+    "mode": "multi_text_mode",
+    "text": ["Working with some text", "Testing second line", "Now third", "And fourth","Should work perfectly"]
+}

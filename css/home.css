@@ -102,6 +102,8 @@ img.donation_user{
 .media>img{
     height: 10vw;
     width: 10vw;
+    min-height: 150px;
+    min-width: 150px;
     align-items: flex-start;
     margin-right: 15px;
 }
@@ -113,4 +115,27 @@ img.donation_user{
 }
 .center{
     text-align: center;
+    font-style: italic;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.d-name{
+    margin-bottom: 0px;
+    margin-left: -10px;
+    margin-top: 0px;
+    font-size: 7vh;
+    font-weight: bolder;
+}
+
+.d-amount{
+    margin-top: 5px;
+    font-size: 10vh;
+    font-weight: lighter;
+}
+
+.d-box{
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
 }

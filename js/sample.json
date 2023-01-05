@@ -1,0 +1,20 @@
+[
+    {
+        "mode":"donation_mode",
+        "name":"Nikhil Gupta",
+        "amount": "30000 Rs",
+        "year": "2023",
+        "img": "../img/ldce_color.jpg"
+    }
+,
+
+    {
+        "mode": "text_mode",
+        "text": "Working with some text"
+    }
+,
+{
+    "mode": "multi_text_mode",
+    "text": ["Working with some text", "Testing second line", "Now third", "And fourth","Should work perfectly"]
+}
+]
