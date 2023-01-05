@@ -62,7 +62,7 @@ img.logo{
     width:  10vw;
 }
 
-#text-mode{
+#text_mode{
     height: 100vh;
     width: 100%;
     display: flex;
@@ -75,5 +75,6 @@ img.logo{
     font-size: 10vh;
 }
 
-
-
+body{
+    /* overflow: hidden; */
+}
