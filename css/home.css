@@ -95,6 +95,11 @@ img.donation_user{
     align-self: center;
 }
 
+section.video_mode{
+    display: block;
+    height: max-content;
+    width: max-content;
+}
 
 /* Donation */
 .media{
