@@ -4,8 +4,8 @@ let l_text, ci=0, stopped=false;
 function writeString(e, str, i) {
     e.innerHTML = e.innerHTML + str[i];
     if(e.innerHTML == str)
-    {
-        if(++ci==l_text.length)ci=0;
+    {   console.log("here");
+        if(ci++==l_text.length)ci=0;
         setTimeout(slowlyDelete, waitTime, e);
     }
         
@@ -19,6 +19,8 @@ if (e.innerHTML.length == 0)
 }
 
 function slowlyDelete(e) {
+    if(stopped)return;
+    stopped=true;
 for (var i = 0; i < e.innerHTML.length; i++) {
     setTimeout(deleteString, typSpd / 2 * i, e);
 }

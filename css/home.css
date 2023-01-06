@@ -140,3 +140,15 @@ img.donation_user{
     border: 1px solid black;
     border-radius: 50px;
 }
+
+.font-small{
+    font-size: 5vh;
+}
+
+.font-large{
+    font-size: 8vh;
+}
+
+.font-mid{
+    font-size: 6.5vh;
+}
