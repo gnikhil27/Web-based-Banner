@@ -1,5 +1,5 @@
-const typSpd = 100; 
-const waitTime = 500;
+const typSpd = 150; 
+const waitTime = 1000;
 let l_text, ci=0, stopped=false;
 function writeString(e, str, i) {
     e.innerHTML = e.innerHTML + str[i];

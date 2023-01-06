@@ -7,7 +7,6 @@
         "img": "../img/ldce_color.jpg"
     }
 ,
-
     {
         "mode": "text_mode",
         "text": "Working with some text"
@@ -15,6 +14,33 @@
 ,
 {
     "mode": "multi_text_mode",
-    "text": ["Working with some text", "Testing second line", "Now third", "And fourth","Should work perfectly"]
+    "text": ["Welcome to Global Alumni Convention 2023", "Registrations Open", "Register Now"]
+},
+{
+    "mode":"video_mode",
+    "url":"../video/fire.mp4"
+}
+,
+{
+    "mode": "multi_donation_mode",
+    "data": [
+        {
+            "name":"Nikhil Gupta",
+            "amount": "30000 Rs",
+            "year": "2023",
+            "img": "../img/ldce_color.jpg"
+        },
+        {
+            "name":"Sujit",
+            "amount": "150000 Rs",
+            "year": "2023",
+            "img": "../img/ldce_color.jpg"
+        }
+    ]
+}
+,
+{
+    "mode": "text_mode",
+    "text": "<meta http-equiv='refresh' content='10'>Welcome"
 }
 ]

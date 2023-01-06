@@ -35,6 +35,12 @@ const modes = {
     },
     command_mode: function (data){
         eval(data.command);
+    },
+    multi_donation_mode: function(data){
+        for(let i=0; i<data.data.length; i++){
+            console.log(20000*(i+1));
+            setTimeout(this.donation_mode, 20000*(i+1), data.data[i]);
+        }
     }
 }
 
