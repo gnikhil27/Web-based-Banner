@@ -75,6 +75,7 @@ section{
 
 .data{
     font-size: 10vh;
+    text-align: center;
 }
 
 .hidden{
