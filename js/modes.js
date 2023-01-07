@@ -19,9 +19,10 @@ const modes = {
     },
     video_mode: function (data){
         f_video = document.getElementById("f-video")
-        console.log("Setting url to "+data.url)
-        if(current_data == undefined || current_data.url != data.url)f_video.setAttribute("src", data.url);
-        // f_video.requestFullscreen();
+        if(current_data == undefined || current_data.url != data.url){
+            f_video.setAttribute("src", data.url);
+            // f_video.requestFullscreen();
+        }
     },
     multi_text_mode: function (data){
         if(JSON.stringify(l_text) != JSON.stringify(data.text)){

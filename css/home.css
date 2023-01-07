@@ -95,12 +95,6 @@ img.donation_user{
     align-self: center;
 }
 
-section.video_mode{
-    display: block;
-    height: max-content;
-    width: max-content;
-}
-
 /* Donation */
 .media{
     display: flex;
@@ -156,4 +150,15 @@ section.video_mode{
 
 .font-mid{
     font-size: 6.5vh;
+}
+
+#f-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 5;
 }
